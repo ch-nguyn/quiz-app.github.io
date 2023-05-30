@@ -10,7 +10,7 @@ function App() {
   };
   return (
     <div className="main">
-      {startGame ? <InGame /> : <StartGame onClick={handleStartGame} />}
+      {startGame ? <InGame x={""} /> : <StartGame onClick={handleStartGame} />}
     </div>
   );
 }
